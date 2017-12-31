@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int r,d,a,c;
+cout<<"enter the radius"<<"\n";
+cin>>r;
+d=2*r;
+cout<<"the diammeter of the circle is : "<<d<<"\n";
+a=3.14*r*r;
+cout<<"the area of the circle is : "<<a<<"\n";
+c=2*3.14*r;
+cout<<"the circumference of the circle is : "<<c<<"\n";
+return 0;
+}
