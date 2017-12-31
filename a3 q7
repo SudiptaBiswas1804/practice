@@ -5,7 +5,7 @@ int main() {
 char a,z,A,Z,ch;
 cout<<"enter the character "<<"\n";
 cin>>ch;
-if(ch>a && ch<z || ch>A && ch<Z)
+if(ch>'a' && ch<'z' || ch>'A' && ch<'Z')
 { cout<<"it is an character "<<"\n";
 }
 else
