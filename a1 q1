@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int a;
+bool b;
+char c;
+double d;
+float e;
+cout<<"enter the integer";
+cin>>a;
+cout<<a;
+cout<<"enter the boolean";
+cin>>b;
+cout<<b;
+cout<<"enter the character";
+cin>>c;
+cout<<c;
+cout<<"enter the double";
+cin>>d;
+cout<<d;
+cout<<"enter the float";
+cin>>e;
+cout<<e;
+return 0;
+}
