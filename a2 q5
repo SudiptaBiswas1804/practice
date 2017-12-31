@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+ 
+int main() {
+int e,b,a;
+cout<<"enter the base and the exponent"<<"\n";
+cin>>b>>e;
+a=pow(b,e);
+cout<<"the number is : "<<a<<"\n";
+return 0;
+}
